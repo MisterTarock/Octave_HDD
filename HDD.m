@@ -21,6 +21,4 @@ xlabel("Vitesse (tr/min)")
 ylabel('Resistance de Frottement')
 grid
 
-legend('Air')
-#legend2('Helium')
-#legend3('diHydrogène')
+legend('Air','Helium','diHydrogene')
