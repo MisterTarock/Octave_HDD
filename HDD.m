@@ -1,11 +1,11 @@
-#Choix des variables
-Vtr = [3600,4200,5400,7200,10000,15000]; #différente gamme de vitesse
-C = 40 #Température moyenne d'un HDD
+#Choices of variables
+Vtr = [3600,4200,5400,7200,10000,15000]; #Some range of rotation speed
+C = 40 #The mean themperature of a HDD during use
 
-#appel de la fonction
+#Call of the function
 Res_frott;
 
-#mise en place du graphique avec 3 courbes
+#Drawing of the graph with 3 curves 
 hold on
 x = Vtr;
 y1 = Rfai;
