@@ -3,7 +3,7 @@ Vtr = [3600,4200,5400,7200,10000,15000]; #Some range of rotation speed
 C = input ("Give a temparature of choice (usually for a HDD, it's between 40 and 50 C)': ")
 
 #Call of the function
-Res_frott;
+[Rfai,Rfhe,Rfh2]=Res_frott(Vtr,C);
 
 #Drawing of the graph with 3 different curves 
 hold on

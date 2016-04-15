@@ -3,7 +3,7 @@
 #dynamic pressure and the friction resistance of each gaz.
 
 
-
+function [Rfai,Rfhe,Rfh2]=Res_frott(Vtr,C)
 d=9.5/100; #cm convert in m #diameter taken myself on the HDD disc
 tr=d*pi; #m
 V =(Vtr/60)*tr; #Speed in m/s = Vtr in (tr/min)/60* circumference
